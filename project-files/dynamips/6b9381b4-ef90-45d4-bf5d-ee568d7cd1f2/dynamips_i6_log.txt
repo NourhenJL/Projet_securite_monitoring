@@ -1,0 +1,74 @@
+Nov 08 13:46:26.408 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 08 13:46:26.408 HYPERVISOR: Started on IP = localhost, TCP port = 61640.
+Nov 08 13:46:26.894 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 08 13:46:26.894 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips 
+Nov 08 13:46:26.894 GENERAL: working_dir=C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips
+Nov 08 13:46:26.894 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips\a6781f28-581e-4e41-b105-6e04c1cb0b21 
+Nov 08 13:46:26.903 GENERAL: working_dir=C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips\a6781f28-581e-4e41-b105-6e04c1cb0b21
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm create R4 4 c3725 
+Nov 08 13:46:26.903 VM: VM R4 created.
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/nourr/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x602467a4 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-1FE-TX 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1FE-TX 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 16 WIC-1T 
+Nov 08 13:46:26.903 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 13:46:26.919 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 32 WIC-1T 
+Nov 08 13:46:26.919 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 13:46:26.919 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 48 WIC-1T 
+Nov 08 13:46:26.966 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/nourr/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 08 13:46:54.616 HYPERVISOR: exec_cmd: nio create_udp udp-cfa3e0fe-8ae6-4b03-ac33-5c162ea61e09 10028 127.0.0.1 10029 
+Nov 08 13:46:54.866 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-cfa3e0fe-8ae6-4b03-ac33-5c162ea61e09 
+Nov 08 13:46:54.866 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 13:47:19.136 HYPERVISOR: exec_cmd: nio create_udp udp-cfbb2aa5-3538-4d75-95b6-f87e751e3384 10040 127.0.0.1 10041 
+Nov 08 13:47:19.151 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-cfbb2aa5-3538-4d75-95b6-f87e751e3384 
+Nov 08 13:47:19.151 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 13:47:48.354 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Nov 08 13:47:48.354 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Nov 08 13:47:48.354 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 13:47:48.354 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Nov 08 13:47:48.354 HYPERVISOR: exec_cmd: vm start R4 
+Nov 08 13:50:48.751 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 13:50:48.783 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 13:53:32.360 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Nov 08 13:53:32.361 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Nov 08 13:53:32.362 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 14:00:19.114 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 14:00:19.139 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 14:06:49.346 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 14:06:49.360 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 14:08:19.367 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 14:08:19.394 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 14:09:49.433 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 14:09:49.461 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 14:48:50.746 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 14:48:50.774 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 08 15:27:40.432 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/nourr/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 08 15:33:45.306 HYPERVISOR: exec_cmd: nio create_udp udp-db732e30-5245-450d-b788-d6e9c5408231 10086 127.0.0.1 10087 
+Nov 08 15:33:45.308 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-db732e30-5245-450d-b788-d6e9c5408231 
+Nov 08 15:33:45.309 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 15:33:45.309 HYPERVISOR: exec_cmd: vm slot_enable_nio R4 0 1 
+Nov 08 15:33:48.234 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 15:33:48.234 HYPERVISOR: exec_cmd: vm slot_disable_nio R4 0 1 
+Nov 08 15:33:48.247 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 0 1 
+Nov 08 15:33:48.249 HYPERVISOR: exec_cmd: nio delete udp-db732e30-5245-450d-b788-d6e9c5408231 
+Nov 08 15:33:56.583 HYPERVISOR: exec_cmd: nio create_udp udp-49d81ca7-d8c2-4b3b-8333-f26534d8e6e2 10086 127.0.0.1 10087 
+Nov 08 15:33:56.585 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-49d81ca7-d8c2-4b3b-8333-f26534d8e6e2 
+Nov 08 15:33:56.586 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 15:33:56.586 HYPERVISOR: exec_cmd: vm slot_enable_nio R4 1 0 
+Nov 08 15:34:23.020 HYPERVISOR: exec_cmd: nio create_udp udp-c015d757-c69d-484b-8f77-d3c448cb52e9 10094 127.0.0.1 10095 
+Nov 08 15:34:23.022 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-c015d757-c69d-484b-8f77-d3c448cb52e9 
+Nov 08 15:34:23.023 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 08 15:34:23.023 HYPERVISOR: exec_cmd: vm slot_enable_nio R4 0 1 
+Nov 08 15:46:37.824 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Nov 08 15:46:37.825 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Nov 08 15:46:37.826 HYPERVISOR: exec_cmd: vm get_status R4 

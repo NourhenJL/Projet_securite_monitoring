@@ -1,0 +1,54 @@
+Nov 09 12:23:41.768 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 09 12:23:41.768 HYPERVISOR: Started on IP = localhost, TCP port = 56793.
+Nov 09 12:23:41.988 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 09 12:23:41.989 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\wi-nou - Copie\project-files\dynamips 
+Nov 09 12:23:41.994 GENERAL: working_dir=C:\Users\hp\GNS3\projects\wi-nou - Copie\project-files\dynamips
+Nov 09 12:23:41.995 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\wi-nou - Copie\project-files\dynamips\a3668370-cd1f-4d8c-90a1-a39d6f146d49 
+Nov 09 12:23:41.996 GENERAL: working_dir=C:\Users\hp\GNS3\projects\wi-nou - Copie\project-files\dynamips\a3668370-cd1f-4d8c-90a1-a39d6f146d49
+Nov 09 12:23:41.996 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Nov 09 12:23:42.000 VM: VM R1 created.
+Nov 09 12:23:42.003 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Nov 09 12:23:42.003 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Nov 09 12:23:42.004 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Nov 09 12:23:42.004 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Nov 09 12:23:42.005 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 12:23:42.006 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x602467a4 
+Nov 09 12:23:42.008 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/hp/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 09 12:23:42.008 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.58b4.0000 
+Nov 09 12:23:42.009 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Nov 09 12:23:42.010 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 12:23:42.010 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Nov 09 12:23:42.010 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 12:23:42.011 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-1FE-TX 
+Nov 09 12:23:42.011 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 12:23:42.012 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 16 WIC-1T 
+Nov 09 12:23:42.013 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 12:23:42.013 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 32 WIC-1T 
+Nov 09 12:23:42.014 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 12:23:42.014 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 48 WIC-1T 
+Nov 09 12:23:50.354 HYPERVISOR: exec_cmd: nio create_udp udp-1eff9e1e-7cce-4618-8480-0d9867a018ed 10022 127.0.0.1 10023 
+Nov 09 12:23:50.600 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 2 0 udp-1eff9e1e-7cce-4618-8480-0d9867a018ed 
+Nov 09 12:23:50.601 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 12:23:50.670 HYPERVISOR: exec_cmd: nio create_udp udp-6e87fe4e-d198-464b-b100-bd89124afbad 10026 127.0.0.1 10027 
+Nov 09 12:23:50.673 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 16 udp-6e87fe4e-d198-464b-b100-bd89124afbad 
+Nov 09 12:23:50.675 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 12:45:44.006 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Nov 09 12:45:44.008 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\hp\GNS3\projects\wi-nou - Copie\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Nov 09 12:45:44.009 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 12:45:44.010 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Nov 09 12:45:44.011 HYPERVISOR: exec_cmd: vm start R1 
+Nov 09 12:53:44.610 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 09 12:53:44.614 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 09 13:40:53.149 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 13:40:53.150 HYPERVISOR: exec_cmd: vm stop R1 
+Nov 09 13:40:53.298 VM: VM R1 shutdown.
+Nov 09 13:40:53.299 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 09 13:55:15.621 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 13:55:15.623 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 09 13:55:16.466 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 09 13:55:16.468 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 09 13:55:16.470 HYPERVISOR: exec_cmd: vm delete R1 
+Nov 09 13:55:16.470 VM: VM R1 destroyed.
+Nov 09 13:55:16.472 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 09 13:55:16.903 HYPERVISOR: Stopped.
+Nov 09 13:55:16.903 GENERAL: reset done.

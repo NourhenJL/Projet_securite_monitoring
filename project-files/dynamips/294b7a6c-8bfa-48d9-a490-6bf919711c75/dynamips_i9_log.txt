@@ -1,0 +1,54 @@
+Nov 08 15:28:01.024 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 08 15:28:01.025 HYPERVISOR: Started on IP = localhost, TCP port = 61606.
+Nov 08 15:28:01.524 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 08 15:28:01.525 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips 
+Nov 08 15:28:01.525 GENERAL: working_dir=C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips
+Nov 08 15:28:01.525 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips\b5fb334c-d4ae-44e2-8008-e3836928bf4a 
+Nov 08 15:28:01.525 GENERAL: working_dir=C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips\b5fb334c-d4ae-44e2-8008-e3836928bf4a
+Nov 08 15:28:01.525 HYPERVISOR: exec_cmd: vm create R8 8 c3725 
+Nov 08 15:28:01.527 VM: VM R8 created.
+Nov 08 15:28:01.527 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 5007 
+Nov 08 15:28:01.527 HYPERVISOR: exec_cmd: c3725 get_mac_addr R8 
+Nov 08 15:28:01.528 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/nourr/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 08 15:28:01.528 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:28:01.528 HYPERVISOR: exec_cmd: vm set_idle_pc R8 0x602467a4 
+Nov 08 15:28:01.528 HYPERVISOR: exec_cmd: vm set_exec_area R8 64 
+Nov 08 15:28:01.528 HYPERVISOR: exec_cmd: vm set_nvram R8 256 
+Nov 08 15:28:01.529 HYPERVISOR: exec_cmd: vm set_disk0 R8 0 
+Nov 08 15:28:01.529 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:28:01.529 HYPERVISOR: exec_cmd: vm slot_add_binding R8 1 0 NM-1FE-TX 
+Nov 08 15:28:01.529 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:28:01.529 HYPERVISOR: exec_cmd: vm slot_add_binding R8 2 0 NM-1FE-TX 
+Nov 08 15:28:01.530 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:28:01.530 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 16 WIC-1T 
+Nov 08 15:28:01.530 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:28:01.530 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 32 WIC-1T 
+Nov 08 15:28:01.530 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:28:01.530 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 48 WIC-1T 
+Nov 08 15:28:01.607 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/nourr/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 08 15:28:23.170 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/nourr/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 08 15:30:17.430 HYPERVISOR: exec_cmd: nio create_udp udp-31afcfa5-d8e4-4886-92f8-aae1f68a9004 10046 127.0.0.1 10047 
+Nov 08 15:30:17.672 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 0 udp-31afcfa5-d8e4-4886-92f8-aae1f68a9004 
+Nov 08 15:30:17.673 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:30:30.293 HYPERVISOR: exec_cmd: nio create_udp udp-df60d9aa-f4fc-4434-8af9-35ce9ad7e67f 10050 127.0.0.1 10051 
+Nov 08 15:30:30.299 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 1 udp-df60d9aa-f4fc-4434-8af9-35ce9ad7e67f 
+Nov 08 15:30:30.299 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:30:51.505 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:30:51.505 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R8 0 1 
+Nov 08 15:30:51.506 HYPERVISOR: exec_cmd: nio delete udp-df60d9aa-f4fc-4434-8af9-35ce9ad7e67f 
+Nov 08 15:30:56.578 HYPERVISOR: exec_cmd: nio create_udp udp-38fab2e0-b493-4214-9912-bbfcd71bce89 10050 127.0.0.1 10051 
+Nov 08 15:30:56.581 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 1 udp-38fab2e0-b493-4214-9912-bbfcd71bce89 
+Nov 08 15:30:56.581 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:31:13.780 HYPERVISOR: exec_cmd: nio create_udp udp-2183d62d-e542-4789-b170-9b468cd0d082 10056 127.0.0.1 10057 
+Nov 08 15:31:13.782 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 1 0 udp-2183d62d-e542-4789-b170-9b468cd0d082 
+Nov 08 15:31:13.782 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:31:27.503 HYPERVISOR: exec_cmd: nio create_udp udp-679def97-ed49-410a-bf8d-6f76a2fd2aa9 10062 127.0.0.1 10063 
+Nov 08 15:31:27.506 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 2 0 udp-679def97-ed49-410a-bf8d-6f76a2fd2aa9 
+Nov 08 15:31:27.506 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:42:24.083 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/nourr/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 08 15:42:29.541 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/nourr/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Nov 08 15:46:37.833 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+Nov 08 15:46:37.834 HYPERVISOR: exec_cmd: vm set_ghost_file R8 C:\Users\nourr\GNS3\projects\wi-nou\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Nov 08 15:46:37.834 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 08 15:46:37.835 HYPERVISOR: exec_cmd: vm set_config R8 configs\i8_startup-config.cfg 
+Nov 08 15:46:37.835 HYPERVISOR: exec_cmd: vm start R8 
